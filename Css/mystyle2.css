@@ -1,0 +1,108 @@
+
+*{ margin: 0; 
+    padding:0;}
+
+    
+    
+      
+     .body { color: rgb(254, 242, 227);;
+    font-family: Georgia;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    font-size: 120%;}
+
+    .img { width="500" height="333";}
+
+    .h { order: 2px solid black;border-radius: 10px;
+        background-color: rgb(255, 252, 196);
+        outline: #daa623 solid 5px;
+        margin: auto;  
+        padding: 30px;
+        text-align: center;} 
+
+.p {    color: black;
+        font-family: Georgia;
+        text-align: justify;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+    
+
+.h2 {border: 2px solid black;border-radius: 10px;
+    background-color: rgb(255, 252, 196);
+    font-size: 160%;
+    outline: #daa623 solid 5px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+margin-bottom: 20px;}
+
+.list {list-style-type: square; }
+
+.textbox {
+    background-color: rgb(255, 252, 196) ;
+    width: 500px;
+    outline:white solid 5px;
+    border: 15px solid #daa623 ;
+    padding: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 120% ;
+    text-align: justify}
+    
+
+    a {
+      color: rgb(255, 105, 105);}
+
+  
+      #D {
+        background-color: #daa623;
+        color: black;
+        font-size: larger;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 10px;
+        border: 5px solid white; 
+      } 
+
+      table, th, td {
+        border: 1px solid;  
+      }
+
+    table { width: 30% ; font-size: display: flex;margin-left: auto;margin-right: auto }
+
+ 
+      .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        background-image: url(images/tugas7/foother.png);
+        background-size: cover;
+        color: black;
+        font-family: monospace;
+        text-align: left; }
+       
+        .fa-brands {font-size: 70px;
+        color: blue;}
+      
+    
+
+
+.back {background-image: url(images/tugas7/fatahilah.webp); 
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;}
+
+
