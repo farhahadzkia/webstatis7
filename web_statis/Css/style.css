@@ -1,5 +1,5 @@
 :root {
-  --primary: rgba(222, 73, 73, 0.875);
+  --primary: rgba(224, 74, 74, 0.875);
   --bg: white;
 }
 
@@ -12,6 +12,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
@@ -20,6 +24,8 @@ body {
 }
 
 /* Navbar */
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -81,6 +87,44 @@ body {
 #hamburger-menu {
   display: none;
 }
+
+/* Navbar Search Form */
+.navbar .search-form {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: var(--bg);
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+.navbar .search-form.active {
+  transform: scaleY(1);
+}
+
+.navbar .search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color:black;
+  padding: 1rem;
+}
+
+.navbar .search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: black;
+}
+
+
+
+
 
 /* Hero Section */
 
@@ -192,6 +236,7 @@ body {
 .about .row .content p {
   margin-bottom: 0.8rem;
   font-size: 1.3rem;
+  text-align: justify;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -254,7 +299,7 @@ body {
   align-items: center;
   margin-top: 2rem;
   background-color: var(--bg);
-  border: 1px solid black;
+  border: 1px solid #222;
   padding-left: 2rem;
 }
 
@@ -263,8 +308,10 @@ body {
   padding: 2rem;
   font-size: 1.7rem;
   background: none;
-  color:rgb(91, 82, 82), 0, 0);
+  color:rgb(91, 82, 82);
+  
 }
+
 
 .contact .row form .btn {
   margin-top: 3rem;
@@ -365,5 +412,17 @@ footer .credit a {
     transform: scaleX(0.2);
   }
 
+  .menu p { 
+    font-size: 1.2rem;
+  }
 
-  
+  .contact .row {
+    flex-wrap: wrap;
+  }
+  .contact .row .map {
+    height: 30rem;
+  }
+  .contact .row form {
+    padding-top: 0;
+  }
+
